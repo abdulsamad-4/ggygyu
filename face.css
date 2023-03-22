@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    /* display: flex;
+    padding: 100px;
+    height: 100vh; */
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+h1{
+    color: rgb(10, 119, 186);
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.pp{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.first{
+       display: flex;
+       flex-direction: column;
+       width: 350px;
+       margin-left: 50px;
+       margin-bottom: 100px;
+
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px; 
+    margin-top: 20px;
+    background-color: white;
+    font-size: 30px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    height: 30px;
+    margin: 5px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.ll{
+    background-color:  rgb(10, 119, 186);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.cc{
+    background-color: rgb(66, 189, 66);
+    border: none;
+    height: 30px;
+    width: 50%;
+    align-self: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.ff{
+    color:  rgb(10, 119, 186);
+    font-size: medium;
+    text-align: center;
+    margin: 5px;
+}
+
+.page{
+    text-align: center;
+    margin: 10px;
+}
+
